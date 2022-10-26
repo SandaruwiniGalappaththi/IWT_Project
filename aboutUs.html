@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" href="./css/about_CSS.css">
+	<link rel="stylesheet" href="./css/supun_CSS.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<div class="brand-title">
+				<img src="./images/Logo.png" alt="">
+			</div>
+			<p href="#" class="toggle-button">
+				<i id="navbar-icon" class="fas fa-bars"></i>
+			</p>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="supun_HTML.html">Home</a></li>
+					<li><a href="Aboutfacilities.php">Service</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+					<li><a href="contactUs.php">Contact Us</a></li>
+					<li><a href="gallery.html">Gallary</a></li>
+					<li><a href="vacancies.php">Vacancis</a></li>
+					<li><a href="dashboard.php">Dashboard</a></li>
+					<li><a href="login.php">login</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	
+	<div class="txtOn">
+		<div class="slider fade">
+			<div class="numberTop">1 / 3</div>
+			<img src="./images/staff2.jpg" style="width:100%; height:600px;">
+			<div class="aboutTxt">Our Senior Staff</div>
+		</div>
+		<div class="slider fade">
+			<div class="numberTop">2 / 3</div>
+			<img src="./images/staff.png" style="width:100%; height:600px;">
+			<div class="aboutTxt">Our Junior Staff</div>
+		</div>
+		<div class="slider fade">
+			<div class="numberTop">3 / 3</div>
+			<img src="./images/staff3.jpg" style="width:100%; height:600px;">
+			<div class="aboutTxt">Wall Representator</div>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+
+	<p id="topicOfDestinations">......ABOUT US......</p>
+	
+	<div style="display:inline-block; width:32%; text-align:justify;margin:10px;">
+		<div style="display:inline-block;">
+			<h1 style="color:orange;">Our Story</h1>
+			<p style="font-family:Arial;">Wildlife Safari was founded by Tom Fernandes in Sri Lanka, going on 50 years ago, and we owe our longevity on this ancient continent to sticking to a simple formula: safety, quality, value and service.<br><br>
+			Over the years we’ve built our reputation on creating incredible itineraries for small groups of discerning travellers: people, who, like us, appreciate the majesty of Sri Lanka’s wild places, wildlife and wonderful people.<br><br>
+			While our global reach has grown to service safari lovers from around the planet, we’ve remained true to our humble Sri Lankan roots: we’re still a family-owned and run business, and we’ve never compromised on what we stand for.<br><br>
+			Similarly, we value our independence as an autonomous safari operator, and we ensure that we’re as up-to-date as we are objective by regularly visiting all the destinations we recommend. Despite our many years in the business, we’ve stayed curious about every aspect of safari, and we’re always seeking new experiences for our guests.
+			<br><br></p>
+		</div>
+		<br>
+		<div style="display:inline-block;">
+			<h1 style="color:orange;">Our Guidlines</h1>
+			<p style="font-family:Arial;">The guides at Wildlife safari are an integral part of this family-run company. Between the five of them, they have more than some 120 years on the team, which makes these fine gentlemen not only safari experts, but family too.
+			</p>
+		</div>
+	</div>
+	
+	<div style="display:inline-block; width:65%; text-align:justify; margin-left:10px; position:absolute; top:115%">
+		<div>
+			<h1 style="color:orange;">Our Vehicles</h1>
+			<p style="font-family:Arial;">Wildlife Safari operates their own top-quality safari vehicles, keeping them expertly maintained in their workshop in Nairobi. Whether four-seater or six-seater, the vehicles are tough enough to cope with the harsh African terrain while still offering important safety and comfort features.
+			</p>
+			<div style="position:relative; display:inline-block;" >
+				<div class="mySlides">
+					<img src="./images/aboutLeopard.jpg" style="width:100%; height:500px; margin:0px 15px 0px 0px;">
+					<div class="aboutTxt2">More than 45 years</div>
+					<div class="aboutTxt3">of Safari Expierience</div>
+				</div>
+				<div class="mySlides">
+					<img src="./images/aboutElephant.jpg" style="width:100%; height:500px; margin:0px 15px 0px 0px;">
+					<div class="aboutTxt2">Experienced</div>
+					<div class="aboutTxt3">Guides</div>
+				</div>
+				<div class="mySlides">
+					<img src="./images/aboutPeacock.jpg" style="width:100%; height:500px; margin:0px 15px 0px 0px;">
+					<div class="aboutTxt2">Top-Quality</div>
+					<div class="aboutTxt3">Safari Vehicles</div>
+				</div>
+				
+				<button style="background-color:orange;" class="prev" onclick="plusDivs(-1)">&#10094;</button>
+				<button style="background-color:orange;" class="next" onclick="plusDivs(+1)">&#10095;</button>
+			</div>
+		</div>
+	</div>
+	<center>
+	<hr style="height:2px;border-width:0;color:gray;background-color:gray; width:75%;">
+	
+	<div id="topicOfDestinations">......OUR AGENTS......</div>	
+	<div id="description">Here we are. We'll organize everything for YOU</div>
+	
+	
+	
+	<div>
+		<div class="one">
+			<img src="./images/person1.jpg" class="personImg">
+			<div>
+				<div id="secRow"><b>H.J. Mubarak<b></div>
+				<div align="center">
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				</div>
+				<br>
+				<a href="agent_details.html">
+					<button class="bookMe" href="agent_details.html">Here I am</button>
+				</a>
+			</div>
+		</div>
+		<div class="one">
+			<img src="./images/person3.jpg" class="personImg">
+			<div>
+				<div id="secRow"><b>Lihini Lekani Siriwardhana<b></div>
+				<div align="center">
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				</div>
+				<br>
+				<a href="agent_details.html">
+					<button class="bookMe" href="agent_details.html">Here I am</button>
+				</a>
+			</div>
+		</div>
+		<div class="one">
+			<img src="./images/person2.jpg" class="personImg">
+			<div>
+				<div id="secRow"><b>S. Tharukshika Galappaththi<b></div>
+				<div align="center">
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star"></span>
+				</div>
+				<br>
+				<a href="agent_details.html">
+					<button class="bookMe" href="agent_details.html">Here I am</button>
+				</a>
+			</div>
+		</div>
+		<div class="one">
+			<img src="./images/person4.jpg" class="personImg">
+			<div>
+				<div id="secRow"><b>Fathima Azmani<b></div>
+				<div align="center">
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star check"></span>
+					<span class="fa fa-star"></span>
+				</div>
+				<br>
+				<a href="agent_details.html">
+					<button class="bookMe" href="agent_details.html">Here I am</button>
+				</a>
+				
+			</div>
+		</div>		
+	</div>
+	</center>
+	
+	<!-- Globel Footer -->
+       <div class="footer">
+        <div class="footer-item">
+            <!-- Singel footer info -->
+            <div class="footer-info">
+                <div class="title">Company name</div>
+                <div class="info-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, alias!</p>
+                </div> 
+            </div>
+            <!-- End of Singel footer info -->
+
+            <!-- Singel footer info -->
+            <div class="footer-info">
+                <div class="title">Contact Info</div>
+                <div class="info-content">
+                    <ul>
+                        <li><span><i class="fa fa-envelope"></i></span> Hello@gamil.com</li>
+                        <li><span><i class="fa fa-phone-alt"></i></span> +123 456 789</li>
+                        <li><span><i class="fa fa-map-marker-alt"></i></span> Malabe, Sri Lanka</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Singel footer info -->
+
+            <!-- Singel footer info -->
+            <div class="footer-info">
+                <div class="title">Let’s Get Social</div>
+                <div class="info-content">
+                    <p class="social-icon">
+                        <i class="fa fa-facebook-f"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                    </p>
+                </div>
+            </div>
+            <!-- End of Singel footer info -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2020 Company Name. All rights reserved</p>
+    </footer>
+    <!-- End of Globel Footer -->
+	
+	<script src="./js/about_JS.js"></script>
+</body>
+</html>

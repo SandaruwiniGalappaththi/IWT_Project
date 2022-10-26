@@ -1,0 +1,283 @@
+.bg-img{
+	background: url('../images/safari1.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+	
+.rit1{
+	position:absolute;
+	font-size:40px;
+    top:5%;
+	color:white;
+	font-style:bold;
+	padding:70px;
+}
+.rit{
+	position:absolute;
+	font-size:20px;
+    top:15%;
+	color:white;
+	font-style:bold;
+	padding:70px;
+}
+.offer{
+	font-family: "Lucida Console", Courier, monospace;
+	font-weight:bold;
+	font-size:24px;
+	top:2%;
+	left:8%;
+	color: black;
+}
+.btn2{
+    position:absolute;
+    left:3%;
+    color:white;
+    border:none;
+    height: 25px;
+	font-size:20px;
+    font-style:bold;
+	background-image: linear-gradient(180deg,#DEB887,#D2691E);
+}
+#animate {
+	width: 150px;
+	height: 100px;
+	border:2px solid #F0E68C; 
+	background-color: #F0E68C;
+	border-radius:4%; 
+	position:absolute;
+	top:35%;
+	left:7%;
+  
+}
+
+#animate1 {
+	width: 150px;
+	height: 100px;
+	border:2px solid #F0E68C;
+	background-color: #F0E68C;
+	border-radius:4%;
+	position:absolute;
+	top:35%;
+	left:22%;
+  
+}
+#animate2 {
+	width: 150px;
+	height: 100px;
+	border:2px solid #F0E68C;
+	background-color: #F0E68C;
+	border-radius:4%; 
+	position:absolute;
+	top:35%;
+	left:37%;
+  
+}
+.btn2:hover{
+	background-image: linear-gradient(180deg,#D2691E,#DEB887);
+	cursor:pointer;
+}
+.payment-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-data{
+	width:700px;
+	height:600px;
+	background: rgba(0,0,0,0.4);
+	color: #fff;
+	position:absolute;
+    top: 29%;
+	left:53%;
+    border-radius:10px;
+	padding: 20px;
+	box-shadow: 6px 6px 34px 1px rgba(191,191,191,1);
+}
+.form-data h1{
+    color: white;
+	font-size: 33px;
+	font-weight: 600;
+	margin: 0 0 35px 0;
+	font-family: 'Montserrat',sans-serif;
+	text-align: center;
+}
+.img-card img{
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	margin-right: 30px;
+	margin-left: 5px;
+}
+.form-text .label{
+	display: block;
+	color: white;
+	margin-bottom: 6px;
+	text-align: left;
+}
+.form-text .input{
+	padding: 13px 0 13px 40px;
+	width: 100%;
+	border: 2px solid #dddddd;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	word-wrap: 3px;
+	outline: none;
+	font-size: 16px;
+	color: black;
+}
+.field-grp{
+	display: flex;
+	justify-content: space-between;
+}
+.field-item{
+	width: 48%;
+}
+.space{
+	margin-bottom: 20px;
+}
+.form-icon{
+	position: relative;
+}
+.form-icon .fas, 
+.form-icon .far{
+	position: absolute;
+	bottom: 13px;
+	left: 15px;
+	font-size: 20px;
+	color: #555555;
+}
+.cvv{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	transition: all 0-3s ease;
+}
+.cvv .tip{
+	color: white;
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.cvv .img-cvv{
+	position: absolute;
+	top: -300%;
+	right: 0;
+	background: #5f6c7d;
+	padding: 10px;
+	border-radius: 5px;
+	display: none;
+}
+.cvv .img-cvv img{
+	width: 100px;
+	height: auto;
+}
+.cvv .tip:hover .img-cvv{
+	display: block;
+}
+.total{
+	margin-bottom: 6px;
+	text-align: center;
+}
+#submitbtn {
+  width: 50%;
+  background-color: #0275d8;
+  color: #fff;
+  border-color: #0275d8;
+  padding: 10px 18px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 170px;
+}
+#submitbtn:hover{
+	background-color: #025aaf;
+	border-color: #025aaf;
+}
+
+#para1{
+	width: 160px;
+	height:300px;
+	border:4px;
+	position:absolute;
+	font-weight:bold;
+	font-size:18px;
+	color:deepskyblue;
+	top:55%;
+	left:7%;
+}
+
+#para2{
+	width: 160px;
+	height:300px;
+	font-weight:bold;
+	font-size:18px;
+	color:deepskyblue;
+	position:absolute;
+	top:55%;
+	left:22%;
+}
+#para3{
+    z-index:1;
+	width: 160px;
+	height:300px;
+	font-weight:bold;
+	font-size:18px;
+	color:deepskyblue;
+	position:absolute;
+	top:55%;
+	left:37%;
+}
+
+
+/* payment preview page */
+
+.pbg-img{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	padding: 50px 20px;
+}
+
+.payment-formp{
+	margin: 0 auto;
+}
+
+.pform-data{
+	width:700px;
+	height:600px;
+	background: rgba(0,0,0,0.4);
+	color: #fff;
+    border-radius:10px;
+	padding: 20px;
+	box-shadow: 6px 6px 34px 1px rgba(191,191,191,1);
+}
+.pform-data h1{
+	text-align: center;
+	margin: 20px;
+}
+
+.Crudbutton{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+#crudBtn{
+	padding: 10px 50px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.update{
+	background: rgb(9, 228, 100);
+}
+.pay{
+	background: rgb(18, 131, 236);
+}
+.delete{
+	background: rgb(235, 21, 50);
+}

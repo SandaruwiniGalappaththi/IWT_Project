@@ -1,0 +1,172 @@
+#mml{
+	
+	background-color: yellowgreen;
+	
+}
+
+.top{
+	font-size:39px;
+	margin-top: 80px;
+	color :#006400;
+	width:700px;
+	height: 55px;
+	text-align: center;
+}
+.top:hover{
+background-color: white;
+color :#7CFC00;
+}	
+.txxt {
+	font-size:35px;
+	color:crimson;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 10%;
+	text-align: left;
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  background-color:#7CFC00;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+
+.timing1{
+	position: absolute;
+	left:1%;
+	top:17%;
+	width:290px;
+	height:200px;
+margin-bottom: 70px;
+
+}
+.timing2{
+	position: absolute;
+	left:25%;
+	top:17%;
+	width:290px;
+	height:200px;
+	margin-bottom: 70px;
+}
+.timing3{
+	position: absolute;
+	left:49%;
+	top:17%;
+	width:290px;
+	height:200px;
+margin-bottom: 70px;
+
+}
+.timing4{
+	position: absolute;
+	left:73%;
+	top:17%;
+	width:290px;
+	height:200px;
+margin-bottom: 70px;
+
+}
+.timing1:hover{
+
+color:#800000;
+cursor: grab;
+}
+.timing2:hover{
+
+color:#800000;
+cursor: grab;
+}
+.timing3:hover{
+
+color:#800000;
+cursor: grab;
+}
+.timing4:hover{
+
+color:#800000;
+cursor: grab;
+}
+.wordcolor{
+font-color:green;
+font-size: 25px;
+}
+
+.overlp3{
+	position: absolute;
+	top:79%;
+	left:9%;
+	font-size:60px;
+    z-index:1;
+}
+.overlap0{
+	
+	z-index:-1;
+}
+.autoshowr {
+	max-width: 1000px;
+	position: absolute;
+	 left:35%;
+	top:75%;
+	
+}
+.para{
+		width: 190px;
+		height:300px;
+	}
+.imgager{
+	display: none;
+	background-size:50% 70%;
+	position:absolute;
+}
+.opac {
+	-webkit-animation-name: opac;
+	-webkit-animation-duration: 1.5s;
+	animation-name: opac;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes opac {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes opac {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+ 
+ .activer {
+	background-color: black;
+}
+.container {
+  position: absolute;
+  width: 31%;
+  
+}
+
+.container:hover .overlay {
+  width: 60%;
+  cursor:pointer;
+}
+
+
+.mamg{
+	height:300px;
+	width:300px;
+	border:3px solid green;
+    border-radius:8px 8px 8px 8px;
+    padding-bottom: 0px;
+
+}
+.word{
+	font-size: 29px;
+    color:#006400;
+    
+}

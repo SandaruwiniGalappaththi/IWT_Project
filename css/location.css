@@ -1,0 +1,262 @@
+.headimg {
+  position: relative;
+  text-align: center;
+  height: 60vh;
+  color: none;
+  background: url('../images/mainImg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.headimg .text{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-size: 60px;
+  color: #fff;
+}
+
+.location-details{
+  width: 80%;
+  padding: 20px;
+  position: relative;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  display: flex;
+}
+.images{
+  justify-content: center;
+  float: left;
+  width: 70%;
+}
+.img-gallery{
+  width: 70%;
+  margin: 0px auto;
+}
+.images .img-gallery img{
+  width: 100%;
+}
+.img-gallery .img-preview{
+  display: flex;
+}
+.img-gallery .img-preview img{
+  width: 24%;
+  margin: 5px 2px;
+}
+.location-details .details{
+  width: 50%;
+  float: right;
+  display: inline-grid;
+}
+.details h1{
+  margin: 20px 0px;
+}
+
+
+
+	
+
+.ratings{
+  margin: 10px 0px;
+}
+.ratings ul i{
+  color: rgb(255, 145, 0);
+}
+.para{
+  margin: 20px 0;
+}
+.details button{
+  position: relative;
+  padding: 10px 60px;
+  border: none;
+  color: none;
+  font-size: 18px;
+  width: 80%;
+  margin: 20px auto;
+  outline: none;
+  background:  rgb(255, 145, 0);
+}
+.details button:hover{
+  color: rgb(255, 145, 0);
+  background: transparent;
+  border: 2px solid rgb(255, 145, 0);
+}
+.mapSection{
+  display: flex;
+  
+}
+
+.slist{
+	display: block;
+  width:50%;
+  height: 400px;
+  padding: 5px;
+  border: black;    
+  background-color: none;
+  float :left;
+}
+.srachBox{
+	display:flex;
+}	
+ 
+ #myInput {
+  background-image: url('/css/searchicon.png'); 
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  width: 50%; 
+  font-size: 16px;
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+  display: text;
+}
+
+#myUL {
+  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+   width: 50%; 
+  
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; 
+}
+
+.location{
+	
+  width: 50%;
+  float: right;
+  display: inline-grid;
+}
+
+.rating{
+	color:rgb(255, 145, 0);
+	font-size:40px;
+	display: block;
+	
+}
+.ratingboxs .textr{
+  width: 50%;
+  
+  display: inline-grid;
+}
+.textrh1{
+  margin: 20px 0px;
+}
+.trating{
+  margin: 10px 0px;
+}
+.trating ul i{
+  color: rgb(255, 145, 0);
+}
+.rpara{
+  margin: 20px 0;
+}
+
+
+.textrh1{
+  margin: 20px 0px;
+}
+.trating2{
+  margin: 10px 0px;
+}
+.trating2 ul i{
+  color: rgb(255, 145, 0);
+}
+.rpara2{
+  margin: 20px 0;
+}
+ 
+.textrh1{
+  margin: 20px 0px;
+}
+.trating3{
+  margin: 10px 0px;
+}
+.trating3 ul i{
+  color: rgb(255, 145, 0);
+}
+.rpara3{
+  margin: 20px 0;
+}
+   
+/*Rating*/
+
+ .hr{
+	 border:4px;
+	 border-color:purple;
+ }
+ .rate{
+	display:flex;
+ }
+ 
+ .ratingfus{
+	color:rgb(255, 145, 0);
+	font-size:40px;
+	display: block;
+	
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:center;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+	display: block; 
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+ 
+ 
+ .submit{
+	text-align: center;
+  position: relative;
+  top: 50%;
+  font-size: 35px;
+  color: #116799;
+  margin:3px 6px;
+  border:none;
+  font-weight: bold;
+	 
+ }
+ 

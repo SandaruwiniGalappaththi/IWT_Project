@@ -1,0 +1,262 @@
+
+.header {
+		text-align :left;
+    }
+    
+
+/* slider */
+
+.imageslide {
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.heroSlider{
+  position: relative;
+}
+
+.sliderBtn{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* end slider */
+
+
+/* topic  */
+.topic{
+  margin: 50px auto;
+  color : crimson;
+	font-weight : bold;
+  font-size:40px;
+  text-transform: capitalize ;
+}
+
+/* details section  */
+.details{
+  width: 100%;
+  margin: 0;
+  padding: 30px 15px;
+  height: auto;
+  display: flex;
+}
+.details .left-content{
+  width: 40%;
+  float: left;
+  height: fit-content;
+}
+.left-content h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: blue;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.left-content ul{
+  padding: 10px 40px;
+  text-align: left;
+}
+.left-content li{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.details .right-content{
+  background: fff;
+  width: 60%;
+  float: right;
+  height: fit-content;
+  border: 5px solid blue;
+  padding: 20px 30px;
+}
+.right-content h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: blue;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+form p label, form label{
+  color: blue;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+form p{
+  margin-bottom: 15px;
+}
+form .form-group{
+  width: 100%;
+  display: flex;
+  margin: 20px auto;
+}
+.form-group p{
+  display: flex;
+  margin: 5px 15px;
+  margin-right: 15px !important;
+}
+form input[type="text"], input[type="email"], input[type="date"]{
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100%;
+  margin-top: 5px;
+}
+form ul{
+  display: flex;
+}
+form ul span{
+  color: rgb(104, 104, 224);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 5px 10px;
+}
+form span input[type="number"]{
+  outline: none;
+  border: 2px solid blue;
+  padding: 5px;
+  border-radius: 50px;
+  width: 50%;
+  margin-top: 5px;
+}
+form .total{
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.total h3{
+  color: rgba(47, 47, 160, 0.753);
+  font-size: 26px;
+  margin-right: 20px;
+}
+.total .price{
+  bottom: 0;
+  color: red;
+}
+.select-place{
+  outline: none;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100%;
+  color: blue;
+  margin-top: 5px;
+}
+.btn{
+  justify-content: center;
+  display: flex;
+}
+.formBtn{
+  width: 50%;
+  margin: 10px auto;
+  justify-self: center;
+  padding: 10px 30px;
+  background: blue;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border: 2px solid blue;
+  transition:  all 0.8s linear;
+}
+.formBtn:hover{
+  color: blue;
+  background: transparent;
+  border: 2px solid blue;
+}
+.update{
+  background: rgb(7, 218, 95) !important;
+  border: none  !important;
+}
+.update:hover{
+  background: rgb(6, 138, 61) !important;
+  border: none !important;
+  color: #fff;
+}
+.delete{
+  background: rgb(218, 7, 35) !important;
+  border: none  !important;
+}
+.delete:hover{
+  background: rgb(218, 7, 35) !important;
+  border: none !important;
+  color: #fff;
+}
+::placeholder{
+  color: blue;
+  font-size: 16px;
+}
+/* end of  details section  */
+
+
+
+
